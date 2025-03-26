@@ -10,7 +10,7 @@ const Home = () => {
   const dispatch = useDispatch()
 
   const getMovies = async() => {
-    const res = await api.get(`popular?api_key=${api_key}`)
+    const res = await api.get(`movie/popular?api_key=${api_key}`)
 
     dispatch(fetchMovies(res.data.results))
   }

@@ -5,3 +5,6 @@ url = https://api.themoviedb.org/3/movie/popular?api_key=d2a02a4ad054cbb690e5c73
 https://api.themoviedb.org/3/movie/:id
 
 https://image.tmdb.org/t/p/w500/1E5baAaEse26fej7uHcjOgEE2t2.jpg
+
+
+https://api.themoviedb.org/3/search/movie?query=SEARCH_DATA&api_key=d2a02a4ad054cbb690e5c731dba98a0f

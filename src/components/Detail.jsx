@@ -14,7 +14,7 @@ const Detail = () => {
   const navigate = useNavigate()
 
   const getDetail = async() => {
-    const res = await api.get(`${id}?api_key=${api_key}`)
+    const res = await api.get(`movie/${id}?api_key=${api_key}`)
 
     dispatch(selectMovie(res.data))
   }
